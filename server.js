@@ -7,5 +7,5 @@ const app = express();
 app.use("/graphql", expressGraphQL({ graphiql: true, schema }));
 
 app.listen(4000, () => {
-  console.log("Listening in port 4000");
+  console.log("Listening in port 4000...");
 });
